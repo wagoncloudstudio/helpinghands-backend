@@ -8,7 +8,7 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://hepinghandsdonation.netlify.app/"
+  "https://helpinghandsdonations.vercel.app"
 ];
 
 app.use((req, res, next) => {
